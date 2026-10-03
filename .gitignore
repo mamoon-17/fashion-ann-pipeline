@@ -14,4 +14,3 @@ client_secret*.json
 secrets/
 tmp/
 submission_local/
-/models
