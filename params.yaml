@@ -2,7 +2,7 @@ preprocess:
   validation_size: 0.1
   seed: 42
 train:
-  dense_units: 128
+  dense_units: 256
   dropout_rate: 0.2
   learning_rate: 0.001
   epochs: 20
