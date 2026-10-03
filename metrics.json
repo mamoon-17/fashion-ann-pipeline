@@ -1,0 +1,7 @@
+{
+  "test_loss": 0.32496556639671326,
+  "test_accuracy": 0.8875,
+  "macro_f1": 0.8875146551999059,
+  "test_samples": 10000,
+  "target_accuracy_met": true
+}
