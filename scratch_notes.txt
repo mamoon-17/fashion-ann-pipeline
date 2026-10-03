@@ -1,0 +1,1 @@
+Temporary setup notes. Remove after moving the preparation script into src.
