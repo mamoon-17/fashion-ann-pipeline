@@ -1,0 +1,15 @@
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+.dvc/cache/
+.dvc/tmp/
+.dvc/config.local
+*.h5
+.env
+.env.*
+*credentials*.json
+*token*.json
+client_secret*.json
+secrets/
+tmp/
