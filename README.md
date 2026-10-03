@@ -34,4 +34,4 @@ The `v1` model uses 128 hidden units and reaches 88.75% test accuracy. The `v2` 
 
 Git tracks the source, configuration, `metrics.json` and `dvc.lock`. DVC tracks the raw data, processed data, model, history and evaluation artifacts. The configured [Drive remote](https://drive.google.com/drive/folders/1jzd3TDNvWXpxZxwafHcL6GGdBtT-Jbod) stores these artifacts after `dvc push`.
 
-`submission_local/` contains local copies of the submission materials and is ignored by Git.
+`../submission_local/` contains the report, submission links, push proof and supporting evidence. It is outside this Git repository.
