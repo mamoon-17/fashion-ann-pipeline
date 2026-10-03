@@ -45,7 +45,7 @@ def main():
     )
     model.summary()
     history = model.fit(dataset("train", shuffle=True), validation_data=dataset("val"),
-                        epochs=params["epochs"], verbose=2)
+                        epochs=params["epochs"], shuffle=False, verbose=2)
     output = Path("models")
     output.mkdir(parents=True, exist_ok=True)
     model.save(output / "model.h5")
