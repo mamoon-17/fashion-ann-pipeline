@@ -8,7 +8,7 @@ import yaml
 
 def normalize(images):
     # Preserve floating-point precision during pixel scaling.
-    return images.astype(np.float32) / 255.0
+    return np.sqrt(images.astype(np.float32) / 255.0)
 
 
 def main():
