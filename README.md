@@ -14,3 +14,5 @@ The pipeline command is `dvc repro`.
 ## Submission
 
 The report and recorded command evidence will be added after the workflow is complete.
+
+Run all pipeline commands from the project root.
